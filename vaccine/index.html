@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/fabicon.png">
+    <title>সুরক্ষা : কোভিড-১৯ ভ্যাকসিনের জন্য নিবন্ধন করুন </title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header area start -->
+    <header class="bg-white">
+        <div class="container ">
+
+
+            <div class="row  rows">
+                <nav class="navbar navbar-expand-md">
+                    <div class="col-lg-3">
+                        <a class="m-auto  navbar-brand float-start logo" href="#">
+                            <img src="image/logo-f.5c608b98.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse  col-lg-9 " id="navbarNavDropdown">
+                        <ul class="navbar-nav m-auto text-uppercase font-weight-bold text-primary ">
+                            <li class="nav-item active ">
+                                <a class="nav-link text-center text-md-left" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-left" href="#">Registration</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-left" href="#">Registration (DOB)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-left" href="#">Registration (Passport)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-left" href="#">Card</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-left" href="#">Log In</a>
+                            </li> <li class="nav-item">
+                                <a class="nav-link text-center text-md-left" href="index.html">Log Out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="clear-both"></div>
+    <!-- header area end -->
+    <!-- service aea start -->
+    <section class="" style="min-height: 200px; background: #ebf0ff;" class="services-area mt-3 mb-3 ">
+        <div class="container text-center">
+            <div class="row rows">
+                <div class="col-lg-12 pt-4 text-primary  m-auto ">
+                   <h1 class="text-uppercase pt-40">  Please Log In first. </h1>
+                </div>
+               
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="clear-both"></div>
+
+    <div id="error"></div>
+    <section style="margin: auto; width: 60%; "class="pt-40 pb-40">
+        <div class="row">
+            <div class="col-lg-12 m-auto ">
+                <form onsubmit="return validateForm()" action="home.html" method="get">
+                    <label for="name">Fast Name</label> <br>
+                    <input type="text" placeholder="Fast Name type here" id="name" name="name" maxlength="20"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="Email type here" id="email" name="email" onkeydown="validate()" required><br>
+                    <label for="date">Date Input here</label><br>
+                    <input type="date" placeholder="Last Name type here" id="date" name="date"><br> <br>
+                    <label for="phone">Enter your phone number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+880" required>
+                    <br><br>
+                    
+                    <input class="bg-success text-white p-2 btn" type="submit" id="submit" value="Registration" name="submit">
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+  
+
+
+
+
+    
+    <!--footer area start-->
+    <footer class="pt-3 bg-secondary mt-3  ">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col-lg-3">
+                    <img class="pt-5 pr-5" src="image/logfg.png" alt="">
+
+                </div>
+
+                <div class="col-lg-3 fot ">
+                    <ul class=" ">
+                        <li class="list-group text-white  ">FAQ</li>
+                        <li> Menual</li>
+                        <li> Privacy Policy</li>
+                        <li> Terms of service</li>
+                        <li> Others Affiliates </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h3 class="text-white fw-5 ">Developed by - Dept. of ICT </h3>
+                    <img class="f-img" src="image/ict.52410752.png" alt="">
+                </div>
+
+                <div class="col-lg-3">
+                    <h3 class="text-white fw-5 ">Affiliates - </h3>
+                    <img class="f-img" src="image/org.ed08c793.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- jQurey step startet  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"> </script>
+    <script src="js/uikit.min.js"> </script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <script>
+
+const input = document.querySelector("form input"),
+            counter = document.querySelector("form couter"),
+            maxLength = input.querySelector("maxlength");
+        input.onkeyup = () => {
+            input.innerText = maxLength - input.value.lenght;
+        }
+        function validateForm() {
+            let x = document.forms["myForm"]["fname"].value;
+            if (x == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+        }
+       
+
+
+    </script>
+</body>
+
+</html>

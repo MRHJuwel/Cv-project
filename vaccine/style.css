@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.services-area {
+    width: 100%;
+    height: 20px;
+}
+
+.logo img{
+    width: auto;
+    height: 60px;
+    float: left;
+}
+
+
+
+/* Header area end*/
+
+/* section area start*/
+.services-area {
+    background-image: url(image/banner-bg.7358efba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: top center;
+    min-height: 500px;;
+   
+
+}
+#navbarNavDropdown ul li a{
+    color: #7b8ca5;
+   
+    vertical-align: bottom;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height:1.5 ;
+}#navbarNavDropdown ul li a:hover{
+    color: #364f74;
+   
+
+}
+
+
+ul li:hover{
+
+    border-bottom: 3px solid #203c64;   
+   
+}
+.fot ul li{
+    
+    padding-top: 10px;
+    
+    color:white;
+    list-style: none;
+    text-align: left !important;
+}
+.fot ul li:hover{
+    text-decoration: underline;
+}
+
+/*********font size *****************/
+.f20{
+    font-size: 20px;
+}
+.f18{
+    font-size: 18px;
+} 
+
+.f16{
+    font-size: 18px;
+}
+/******* font wight *******************/
+.fw-5{
+    font-weight: 500;
+}
+.fw-6{
+    font-weight: 600;
+}
+.fw-7{
+    font-weight: 700;
+}
+
+
+
+/******* padding *******************/
+
+.pr-5{
+    padding-right: 40px;
+}
+/******* margin top*******************/
+
+.mt-20{
+    margin-top: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}.mt-25{
+    margin-top: 25px;
+}
+.mt-35{
+    margin-top: 35px;
+}.mt-50{
+    margin-top: 50px;
+}
+/******* margin bottom*******************/
+
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-30{
+     margin-bottom: 20px;
+    : 30px;
+}.mb-25{
+    margin-bottom: 20px;
+    : 25px;
+}
+.mb-35{
+    margin-bottom: 20px;
+    : 35px;
+}.mb-50{
+    margin-bottom: 20px;
+    : 50px;
+}
+
+/*******************pading left******/
+
+.pl-30{
+    padding-left: 30px;
+}
+.pl-40{
+    padding-left: 40px;
+}
+.pl-35{
+    padding-left: 35px;
+}
+.pl-50{
+    padding-left: 50px;
+}
+/*******************pading bottom******/
+
+.pb-30{
+    padding-bottom: 30px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.pb-35{
+    padding-bottom: 35px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+/*******************pading top******/
+
+.pt-30{
+    padding-top: 30px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pt-35{
+    padding-top: 35px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+
+.sections{
+    width: 80%;
+}
+.rows{
+    width: 100%;
+}
+
+.aa strong{
+ 
+    font-size: 20px;
+    color:#092753;
+    font-weight: bolder;
+    line-height: 1.6em;
+    width: fit-content;
+    font-weight: 900;
+   
+}
+a{
+    text-decoration: none;
+}
+
+.f-img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/********  form style start *******/
+input[type=text],
+input[type=email],
+date {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #F2F4F4;
+}
+input[type=date],
+input[type=tel] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+input[type=submit]{
+    border-radius: 20px;
+}
+input[type=submit]:hover{
+    background: grey;
+    color: black;
+}
+
+/********  form style end *******/
